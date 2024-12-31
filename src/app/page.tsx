@@ -7,21 +7,21 @@ export default function Home() {
       <FireworksEffect />
 
       {/* New Year Content */}
-      <div className="h-auto bg-gradient-to-r from-red-700 via-yellow-400 to-yellow-500 border-4 border-white z-10 text-center space-y-6 rounded-xl p-8 shadow-2xl transform transition-all duration-500 hover:scale-105 animate-bounce">
-        <h1 className="font-serif text-6xl font-extrabold text-white animate-bounce">
+      <div className="h-auto bg-gradient-to-r from-red-700 via-yellow-400 to-yellow-500 border-4 border-white z-10 text-center space-y-6 rounded-xl p-6 md:p-8 shadow-2xl transform transition-all duration-500 hover:scale-105 animate-bounce">
+        <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-extrabold text-white animate-bounce">
           🎉 Happy New Year 2025! 🎆
         </h1>
-        <p className="text-lg font-serif font-semibold mb-4 text-white opacity-90 transform transition-all duration-500 hover:scale-105 animate__animated animate__fadeIn">
+        <p className="text-lg sm:text-xl font-serif font-semibold mb-4 text-white opacity-90 transform transition-all duration-500 hover:scale-105 animate__animated animate__fadeIn">
           May this year bring you joy, success, and endless possibilities! 🚀
         </p>
-        <h6 className="text-md opacity-70 text-white font-semibold">
+        <h6 className="text-md sm:text-lg opacity-70 text-white font-semibold">
           Created By <b><i>Areeba Hammad</i></b> 👑
         </h6>
       </div>
 
       {/* Scrollable Message */}
       <div className="absolute bottom-4 text-center w-full animate-bounce">
-        <p className="text-lg font-semibold opacity-80 text-yellow-500">
+        <p className="text-lg sm:text-xl font-semibold opacity-80 text-yellow-500">
           🌟 Let&rsquo;s make 2025 the best year ever&rsquo; 🌟
         </p>
       </div>
