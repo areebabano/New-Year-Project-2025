@@ -22,7 +22,7 @@ export default function Home() {
       {/* Scrollable Message */}
       <div className="absolute bottom-4 text-center w-full animate-bounce">
         <p className="text-lg font-semibold opacity-80 text-yellow-500">
-          🌟 Let's make 2025 the best year ever! 🌟
+          🌟 Let&rsquo;s make 2025 the best year ever&rsquo; 🌟
         </p>
       </div>
 
@@ -31,25 +31,3 @@ export default function Home() {
     </div>
   );
 }
-
-
-// import FireworksEffect from "../components/FireWorks";
-
-// export default function Home() {
-//   return (
-//     <div className="relative flex flex-col items-center justify-center min-h-screen bg-black text-white overflow-hidden">
-//       {/* Fireworks Animation */}
-//       <FireworksEffect />
-
-//       {/* New Year Content */}
-//       <div className="z-10 text-center space-y-6">
-//         <h1 className="text-5xl font-extrabold animate-pulse">
-//           🎆 Happy New Year 2025! 🎆
-//         </h1>
-//         <p className="text-lg font-medium">
-//           May this year bring you joy, success, and endless possibilities! 🚀
-//         </p>
-//       </div>
-//     </div>
-//   );
-// }
